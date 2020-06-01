@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hide-hub-menu-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/hideHubMenu/HideHubMenuApplicationCustomizer.js",
+          "manifest": "./src/extensions/hideHubMenu/HideHubMenuApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HideHubMenuApplicationCustomizerStrings": "lib/extensions/hideHubMenu/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HideHubMenu"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="9426460c-9f1e-4e2c-8bed-c5f7b7072532"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
